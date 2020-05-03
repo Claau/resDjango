@@ -1,0 +1,10 @@
+python3 -m venv ~/env
+souce e~/env/bin/activate
+deactivate
+
+djago-admin.py start-project nome .
+python manage.py startapp nome
+add to isntalled apps:
+	nome appcradted
+	rest_framework
+	rest_framework_authtoken
